@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('fan.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.team-member {
+    background-color: #ebdde7;
+    border: 1px solid #141414;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.more {
+    display: none;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]:checked ~ .more {
+    display: block;
+}
+
+label {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
